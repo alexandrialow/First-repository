@@ -1,0 +1,61 @@
+ALEXANDRIA LOW: REPORT ON CAPSTONE PROJECT
+PROBLEM STATEMENT: 
+Predicting food trends for product development and innovation to maintain competitiveness (Classification, Unsupervised learning).
+
+1. An executive summary:
+  What is your goal?
+The goal is to predict food flavour trends/patterns using unsupervised classification learning model. This is to ultimately provide some suggestions on which direction to take in terms of product innovation.
+
+ Where did you get your data?
+Data has been obtained from Kaggle.
+
+What are your metrics?
+Metrics used are Silhouette, accuracy, precision, recall 
+
+What were your findings?
+Still in progress.
+ 
+What risks/limitations/assumptions affect these findings?
+Still in progress.
+
+2. Summarize your statistical analysis, including:
+  - implementation
+  - evaluation
+  - inference
+
+    In progress
+
+3. Clearly document and label each section of your notebook(s)
+   Logically organize your information in a persuasive, informative manner.
+   Include notebook headers and subheaders, as well as clearly formatted markdown for all written                 components.
+   The notebook shall contain headers, subheaders, and comments following a logical flow from the start until the end of the project.
+    Include graphs/plots/visualizations with clear labels.
+
+  Comment and explain the purpose of each major section/subsection of your code.
+  Codes are commented on and explanations provided.
+
+   Document your code for your future self, as if another person needed to replicate your approach
+   In progress.
+
+4. Clearly document all of your decision points in the relevant sections
+    How did you acquire your data?
+    Data was acquired from Kaggle. A recipe dataset.
+ 
+    How did you transform or engineer your data?  Why?
+    I have transformed/engineer the columns that I will need to work with. 
+Vectorizing and Clustering a column using DBSCAN and vectorized into a densed array of numerical values and assigned cluster labels.
+One-hot encoded a column ‘cuisine’ using get dummies and to assign numerical labels to it.
+This is in order to assign usable data into features accordingly during model preparation.
+ 
+How did you select your model?
+My model was selected based on the kind of project that was chosen. As it falls under unsupervised learning, classification algorithm such as Random Forest Classifier was selected. Data used is discrete and not continuous. The model is expected to demonstrate increased randomness which will result in increased diversity, and decreases the variance of the model. It gives a higher level of predictive accuracy especially for datasets with non-linear relationships.
+  
+How did you optimize hyperparameters?
+Hyperparameters were optimized by default, using the DBSCAN clustering . DBSCAN groups closely packed points based on density instead of distance. Therefore, no feature scaling was done in this process.
+
+5. Host your notebook and any other materials in your own public Github Repository.
+  - You repo should have README file that guides us through the repository and links to important files.
+  - Include links and explanations to any outside libraries or source code used.
+  - Host a copy of your dataset or include a link to a remotely hosted version.
+
+
