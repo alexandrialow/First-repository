@@ -1,0 +1,21 @@
+This is a directory of where the files of my repository can be found.
+
+
+This is the main link for the GitHub respository of the project files:
+https://github.com/alexandrialow/First-repository 
+
+
+This is the Notebook of the project:
+https://github.com/alexandrialow/First-repository/blob/main/Capstone%20Project%20Alex%20Final.ipynb
+
+
+This is the Final Report of the Project:
+https://github.com/alexandrialow/First-repository/blob/main/Final%20Project%20Report%20Alex.docx
+
+
+This is the Powerpoint presentation slides of the project:
+https://github.com/alexandrialow/First-repository/blob/main/CAPSTONE%20PROJECT%20PRESENTATION%20ALEX.pptx
+
+
+This is the Dataset used for the project:
+https://github.com/alexandrialow/First-repository/blob/main/recipe.csv
